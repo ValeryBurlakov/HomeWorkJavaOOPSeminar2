@@ -1,0 +1,8 @@
+1: Oleg Brown partner: Olga, parents: unknown, children: Lyuda Brown, Kate Brown
+2: Olga Brown partner: Oleg, parents: unknown, children: Lyuda Brown
+4: Vitya Brown partner: Lyuda, parents: unknown, children: Vera Brown
+3: Lyuda Brown partner: Vitya, parents: Olga Brown Oleg Brown, children: Vera Brown
+5: Vera Brown partner: no spouse, parents: Vitya Brown Lyuda Brown, children: Lena Brown, Lily Brown
+6: Lily Brown partner: no spouse, parents: Vera Brown, children: no children
+7: Kate Brown partner: no spouse, parents: Oleg Brown, children: no children
+8: Lena Brown partner: no spouse, parents: Vera Brown, children: no children
