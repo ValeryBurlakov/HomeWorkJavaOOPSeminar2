@@ -12,7 +12,6 @@ public class program {
         Person Lily = new Person(6, "Lily", "Brown", 3, Gender.FEMALE);
         Person Kate = new Person(7, "Kate", "Brown", 5, Gender.FEMALE);
         Person Lena = new Person(8, "Lena", "Brown", 5, Gender.FEMALE);
-        
         // создание родства и других связей
 
         Oleg1.addSpouse(Olga1);
