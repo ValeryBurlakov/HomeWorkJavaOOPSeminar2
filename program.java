@@ -1,8 +1,9 @@
+// import withInterface.Printerimpl;
 
 public class program {
     // private Printerimpl printerimpl; // sem 2
     public static void main(String[] args) {
-        // Printerimpl printt = new Printerimpl(); // семинар 2
+        Printerimpl printt = new Printerimpl(); // семинар 2
         // SaveFiles savefiles = new Printerimpl(); // семинар 2
         Person Oleg1 = new Person(1, "Oleg", "Brown", 70, Gender.MALE);
         Person Olga1 = new Person(2, "Olga", "Brown", 70, Gender.FEMALE);
@@ -49,7 +50,7 @@ public class program {
         // tree1.allTree(); // вывод списком экземпляров дерева
         tree1.saveToFile("newTree.txt"); // сохранение в файл
 
-        // printt.print("linkk"); // семинар 2
+        printt.print("linkk"); // семинар 2
         // savefiles.savefile("newfiles"); // созранение в файл 2 sem
 
         // создание комода

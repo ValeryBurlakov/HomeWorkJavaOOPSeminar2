@@ -1,0 +1,6 @@
+Charlie, PARENT: David
+Oleg, PARENT: Anna
+Billianna, PARENT: Anna
+Anna, PARENT: David, Charlie
+Mike - HUSBAND: Anna
+Billianna - WIFE: Oleg

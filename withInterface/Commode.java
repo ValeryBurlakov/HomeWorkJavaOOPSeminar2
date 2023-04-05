@@ -1,7 +1,6 @@
 package withInterface;
 
-
-public class Commode {
+public class Commode extends furnitureext{
     private Integer idCommode;
     private String color;
 
@@ -13,7 +12,10 @@ public class Commode {
     public Integer getID() {
         return idCommode;
     }
+
+    @Override
     public String getColor() {
+        System.out.println("this color - " + color + " extends for example");
         return color;
     }
 

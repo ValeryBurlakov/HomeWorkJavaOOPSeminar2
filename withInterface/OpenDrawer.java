@@ -10,6 +10,7 @@ public class OpenDrawer {
         this.commode = commode;
         this.person = person;
     }
+    
     OpenDrawer(PersonInterface person, Commode commode) {
         this.commode = commode;
         this.person = person;

@@ -6,7 +6,7 @@ import java.util.HashSet;
 public class program {
     // individual individual = new individual();
     public static void main(String[] args) {
-        Integer relationshipDepth = 0;
+        Integer level = 0;
 
         individual Oleg = new individual("Oleg", "Brown", 70, Gender.MALE);
         individual Olga = new individual("Olga", "Brown", 70, Gender.FEMALE);
@@ -18,7 +18,6 @@ public class program {
         individual charlie = new individual("Charlie", null, 8, Gender.MALE);
         individual david = new individual("David", null, 5, Gender.MALE);
 
-    
         FamilyTree treeOne = new Tree();
         
         treeOne.addParent(anna, billianna); // bill родитель анны
@@ -31,8 +30,8 @@ public class program {
         treeOne.addSpouse(anna, Mike);
         treeOne.addSpouse(billianna, Oleg);
 
-        treeOne.printFamilyTree(billianna, new HashSet<>(), relationshipDepth);
-        // treeOne.printFamilyTree(Mike, new HashSet<>(), relationshipDepth);
+        treeOne.printFamilyTree(billianna, new HashSet<>(), level);
+        treeOne.printFamilyTree(Mike, new HashSet<>(), level);
         
     // создание комода
     Commode firstCommode = new Commode(01, "black");
@@ -49,9 +48,10 @@ public class program {
     System.out.println(open3);
 
     // сохранение в файл семейных связей
-    FileSaver fileSaver = new SaveToTxt(treeOne);
-    String fileName = "family-tree.txt";
-    fileSaver.saveToFile(fileName);
+    FileSaverInterface fileSaver = new SaveToTxt(treeOne);
+    // String fileName = "family-tree.txt";
+    fileSaver.saveToFile("family-tree.txt");
+
     }
     
 }

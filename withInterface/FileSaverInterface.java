@@ -1,5 +1,5 @@
 package withInterface;
 
-public interface FileSaver {
+public interface FileSaverInterface {
     void saveToFile(String fileName);
 }

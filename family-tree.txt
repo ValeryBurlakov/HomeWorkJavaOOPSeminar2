@@ -1,9 +1,0 @@
-Charlie,PARENT,David
-Oleg,PARENT,Anna
-Billianna,PARENT,Anna
-Anna,PARENT,David
-Anna,PARENT,Charlie
-Mike,SPOUSE,Anna
-Oleg,SPOUSE,Billianna
-Anna,SPOUSE,Mike
-Billianna,SPOUSE,Oleg
