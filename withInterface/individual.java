@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class individual implements PersonInterface, SpouseInterface{
-    private String name;
+    private String name; // *
     private String surname;
     private Integer age;
     private Gender gender;

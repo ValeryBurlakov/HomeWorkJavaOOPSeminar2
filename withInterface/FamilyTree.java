@@ -13,5 +13,5 @@ public interface FamilyTree {
     List<PersonInterface> getSpouses(PersonInterface person);
     void printFamilyTree(PersonInterface person, HashSet<PersonInterface> printed, int depth);
     Map<PersonInterface, List<PersonInterface>> getSpouseMapping();
-    Map<PersonInterface, List<PersonInterface>> getParentChildMapping();
+    Map<PersonInterface, List<PersonInterface>> getParentChildMapping(); // *
 }

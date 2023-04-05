@@ -11,7 +11,7 @@ public class Drawer {
     
     @Override
     public String toString() {
-        return "" + drawers;
+        return "" + drawers; // *
 
     }
 }

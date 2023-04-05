@@ -1,5 +1,5 @@
 package withInterface;
 
 public enum Drawers {
-    one, two, three, four, all;
+    one, two, three, four, all; // *
 }

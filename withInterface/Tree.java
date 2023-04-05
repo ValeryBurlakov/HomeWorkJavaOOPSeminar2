@@ -50,7 +50,7 @@ public class Tree implements FamilyTree{
 
 @Override
 public void printFamilyTree(PersonInterface person, HashSet<PersonInterface> printed, int depth) {
-    if (printed.contains(person)) { // если этот человек уже был распечатан, пропустить его
+    if (printed.contains(person)) { // если этот человек уже был распечатан, пропустить его *
         return;
     }
 

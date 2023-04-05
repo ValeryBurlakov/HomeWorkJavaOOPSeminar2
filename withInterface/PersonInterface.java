@@ -12,7 +12,7 @@ public interface PersonInterface {
     Gender getSex();
     void setSex(Gender gender);
     void setSpouse(List<PersonInterface> spouse);
-    List<PersonInterface> getSpouse();
+    List<PersonInterface> getSpouse(); // *
     // void addSpouse(PersonInterface person1, PersonInterface person2);
     // List<PersonInterface> getSpouses(PersonInterface person);
 }
